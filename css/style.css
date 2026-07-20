@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #1a1a1a;
+  background: #ffffff;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 24px;
+  border-radius: 22px;
+  background: #2f855a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0 0 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #4a4a4a;
+  margin: 0 0 32px;
+}
+
+.store-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.store-button {
+  display: block;
+  padding: 14px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background: #1a1a1a;
+  transition: opacity 0.15s ease;
+}
+
+.store-button:active {
+  opacity: 0.8;
+}
+
+.store-button.google-play {
+  background: #01875f;
+}
+
+.store-button.app-store {
+  background: #000000;
+}
+
+.redirect-note {
+  font-size: 13px;
+  color: #999;
+  min-height: 18px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 13px;
+  color: #999;
+}
+
+footer a {
+  color: #999;
+  text-decoration: underline;
+}
+
+.legal {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.legal h1 {
+  font-size: 24px;
+  text-align: left;
+}
+
+.legal p {
+  text-align: left;
+  font-size: 15px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #2f855a;
+  text-decoration: none;
+  font-size: 14px;
+}
